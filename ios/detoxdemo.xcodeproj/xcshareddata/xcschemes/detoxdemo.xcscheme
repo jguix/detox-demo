@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "pushdemo.app"
-               BlueprintName = "pushdemo"
-               ReferencedContainer = "container:pushdemo.xcodeproj">
+               BuildableName = "detoxdemo.app"
+               BlueprintName = "detoxdemo"
+               ReferencedContainer = "container:detoxdemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "pushdemoTests.xctest"
-               BlueprintName = "pushdemoTests"
-               ReferencedContainer = "container:pushdemo.xcodeproj">
+               BuildableName = "detoxdemoTests.xctest"
+               BlueprintName = "detoxdemoTests"
+               ReferencedContainer = "container:detoxdemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "pushdemo.app"
-            BlueprintName = "pushdemo"
-            ReferencedContainer = "container:pushdemo.xcodeproj">
+            BuildableName = "detoxdemo.app"
+            BlueprintName = "detoxdemo"
+            ReferencedContainer = "container:detoxdemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "pushdemo.app"
-            BlueprintName = "pushdemo"
-            ReferencedContainer = "container:pushdemo.xcodeproj">
+            BuildableName = "detoxdemo.app"
+            BlueprintName = "detoxdemo"
+            ReferencedContainer = "container:detoxdemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

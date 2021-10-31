@@ -133,7 +133,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.pushdemo"
+        applicationId "com.detoxdemo"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

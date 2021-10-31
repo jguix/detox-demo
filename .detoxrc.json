@@ -4,9 +4,9 @@
   "skipLegacyWorkersInjection": true,
   "apps": {
     "ios": {
-      "build": "xcodebuild -workspace ios/pushdemo.xcworkspace -scheme pushdemo -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+      "build": "xcodebuild -workspace ios/detoxdemo.xcworkspace -scheme detoxdemo -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
       "type": "ios.app",
-      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/pushdemo.app"
+      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/detoxdemo.app"
     },
     "android": {
       "build": "cd android && ./gradlew assembleAndroidTest -DTestBuildType=debug && cd ..",

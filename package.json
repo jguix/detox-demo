@@ -1,5 +1,5 @@
 {
-  "name": "pushdemo",
+  "name": "detoxdemo",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,9 +10,6 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@react-native-firebase/app": "^12.2.0",
-    "@react-native-firebase/messaging": "^12.2.0",
-    "@react-native-firebase/perf": "^12.8.0",
     "react": "17.0.1",
     "react-native": "0.64.2"
   },
