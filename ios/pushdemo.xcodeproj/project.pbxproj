@@ -12,7 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1D99A05C6C1EC03A657FD2D7 /* libPods-pushdemo-pushdemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A76BFD11C0A5E57317EDAA3 /* libPods-pushdemo-pushdemoTests.a */; };
-		47974F9C26A839AC00D67213 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47974F9B26A839AC00D67213 /* GoogleService-Info.plist */; };
+		478280C726A888B300B08DC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 478280C626A888B300B08DC9 /* GoogleService-Info.plist */; };
 		7BED7CF0CD6C0547A96B7BEA /* libPods-pushdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DE92EE220F28E19DAB73D4 /* libPods-pushdemo.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,8 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = pushdemo/main.m; sourceTree = "<group>"; };
 		1F98A1FE0502A09F380762D3 /* Pods-pushdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushdemo.debug.xcconfig"; path = "Target Support Files/Pods-pushdemo/Pods-pushdemo.debug.xcconfig"; sourceTree = "<group>"; };
 		329137A5C24F4EEF9CA985E7 /* Pods-pushdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pushdemo.release.xcconfig"; path = "Target Support Files/Pods-pushdemo/Pods-pushdemo.release.xcconfig"; sourceTree = "<group>"; };
-		47974F9B26A839AC00D67213 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		478280B226A84CB400B08DC9 /* pushdemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = pushdemo.entitlements; path = pushdemo/pushdemo.entitlements; sourceTree = "<group>"; };
+		478280C626A888B300B08DC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		61DE92EE220F28E19DAB73D4 /* libPods-pushdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pushdemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = pushdemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A76BFD11C0A5E57317EDAA3 /* libPods-pushdemo-pushdemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pushdemo-pushdemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +89,7 @@
 		13B07FAE1A68108700A75B9A /* pushdemo */ = {
 			isa = PBXGroup;
 			children = (
+				478280B226A84CB400B08DC9 /* pushdemo.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -118,7 +120,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				47974F9B26A839AC00D67213 /* GoogleService-Info.plist */,
+				478280C626A888B300B08DC9 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* pushdemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* pushdemoTests */,
@@ -248,7 +250,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				47974F9C26A839AC00D67213 /* GoogleService-Info.plist in Resources */,
+				478280C726A888B300B08DC9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +451,7 @@
 			baseConfigurationReference = B9C7311C6F5BAF14E8038986 /* Pods-pushdemo-pushdemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G8DK46HGX6;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -477,6 +480,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = G8DK46HGX6;
 				INFOPLIST_FILE = pushdemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,7 +505,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = pushdemo/pushdemo.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8DK46HGX6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = pushdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,7 +519,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = El;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnative.pushdemo;
 				PRODUCT_NAME = pushdemo;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -527,7 +533,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = pushdemo/pushdemo.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8DK46HGX6;
 				INFOPLIST_FILE = pushdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -538,7 +546,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = El;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnative.pushdemo;
 				PRODUCT_NAME = pushdemo;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>701749699599-qdfm5f8vuh0t1uc7rc88snlhfab3l97h.apps.googleusercontent.com</string>
+	<string>701749699599-gdrvm25u4f2hrqp9142aid9p7523r1mf.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.701749699599-qdfm5f8vuh0t1uc7rc88snlhfab3l97h</string>
+	<string>com.googleusercontent.apps.701749699599-gdrvm25u4f2hrqp9142aid9p7523r1mf</string>
 	<key>API_KEY</key>
 	<string>AIzaSyAY9U1QiRgyKp-qsfMwNQrO45aRgmsoiTI</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.example.pushdemo</string>
+	<string>com.reactnative.pushdemo</string>
 	<key>PROJECT_ID</key>
 	<string>pushdemo-firebase</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:701749699599:ios:42c5c3ba1fb405e62c6f7a</string>
+	<string>1:701749699599:ios:beada591937516952c6f7a</string>
 </dict>
 </plist>
