@@ -2,14 +2,26 @@
 
 This is a project demonstrating E2E testing on React Native using Detox.
 
+## Installing
+
+After cloning the project, open a terminal and install the dependencies. Then, launch the metro server and keep the terminal open (this is needed to run the detox tests).
+
+```sh
+# install dependencies and start metro server
+yarn
+yarn start
+```
+
+## Running the e2e tests
+
+Open a different terminal and run the tests (for iOS you might need to open the ios workspace in XCode and configure a Team in Signing & Capabilities menu):
+
 ```sh
 # build and test for ios
-yarn
 detox build -c ios
 detox test -c ios
 
 # build and test for android
-yarn
 detox build -c android
 detox test -c android
 ```
